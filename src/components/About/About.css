@@ -1,0 +1,29 @@
+.container-about{
+  background: linear-gradient(107.48deg, rgba(1, 214, 252, 0.6) 0.01%, rgba(225, 38, 255, 0.54) 81.77%); 
+  background-size: cover;
+  
+}
+.info-part{
+  display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: calc(100% - 80px);
+}
+.container-about .info-block,.second-info-block{
+  font-style: normal;
+  font-weight: 550;
+  font-size: 18px;
+  line-height: 22px;
+  
+background: rgba(255, 255, 255, 0.96);
+border-radius: 20px;
+  color: #000000;
+  max-width: 1060px;
+  padding: 30px 70px;
+}
+.second-info-block{
+  text-align: left;
+  padding: 10px 70px;
+  margin-top: 40px;
+}

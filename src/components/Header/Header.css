@@ -1,0 +1,225 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 1rem;
+}
+.logo a{
+  text-decoration: none;
+}
+.burger-menu, .buttons-header{
+  width: 30%;
+}
+.logo-span{
+  font-family: 'Montserrat';
+font-style: italic;
+font-weight: 600;
+font-size: 16px;
+line-height: 22px;
+text-transform: uppercase;
+padding: 9px 60px;
+color: #000000;
+border: 1px solid #000000;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 20px;
+}
+.logo {
+  align-items: center;
+}
+
+
+
+.buttons-header {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.find-btn,
+.search-btn {
+  margin-right: 1rem;
+  background-color: black;
+  color: white;
+  border: none;
+  padding: 40px 25px 25px 25px;
+  height: 80px;
+  border-radius: 0 0 20px 20px;
+  font-family: 'Inter';
+  transform: translateY(-20px);
+font-style: normal;
+font-weight: 500;
+font-size: 15px;
+line-height: 18px;
+cursor: pointer;
+transition: transform 0.2s, height 0.2s;
+}
+
+.find-btn:hover, .search-btn:hover{
+  transform: translateY(0px);
+}
+
+.account-icon {
+  margin-left: 1rem;
+}
+.account-icon img{
+  max-width: 40px;
+}
+
+.burger-menu {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+.menu:hover{
+  transform: scale(1.1);
+}
+
+label .menu {
+  position: absolute;
+  left: -100px;
+  top: -100px;
+  z-index: 100;
+  width: 200px;
+  height: 200px;
+  background: #000;
+  border-radius: 50% 50% 50% 50%;
+  -webkit-transition: .3s ease-in-out;
+  transition: .5s ease-in-out;
+  box-shadow: 0 0 0 0 #000, 0 0 0 0 #000;
+  cursor: pointer;
+  
+}
+
+label .hamburger {
+  position: absolute;
+  top: 135px;
+  right: 50px;
+  width: 30px;
+  height: 2px;
+  background: #fff;
+  display: block;
+  -webkit-transform-origin: center;
+  transform-origin: center;
+  -webkit-transition: .5s ease-in-out;
+  transition: .5s ease-in-out;
+}
+
+label .hamburger:after, label .hamburger:before {
+  -webkit-transition: .5s ease-in-out;
+  transition: .5s ease-in-out;
+  content: "";
+  position: absolute;
+  display: block;
+  width: 100%;
+  height: 100%;
+  background: #fff;
+}
+
+label .hamburger:before { top: -10px; }
+
+label .hamburger:after { bottom: -10px; }
+
+label input { display: none; }
+
+label input:checked + .menu {
+  box-shadow: 0 0 0 100vw #000, 0 0 0 100vh #000;
+  border-radius: 0;
+  
+}
+
+label input:checked + .menu .hamburger {
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+  
+}
+
+label input:checked + .menu .hamburger:after {
+  -webkit-transform: rotate(90deg);
+  transform: rotate(90deg);
+  bottom: 0;
+  
+}
+
+label input:checked + .menu .hamburger:before {
+  -webkit-transform: rotate(90deg);
+  transform: rotate(90deg);
+  top: 0;
+  
+}
+label ul li{
+  list-style-type: none;
+}
+label ul {
+  z-index: 200;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.5s ease-in-out, visibility 0s linear 0.5s;
+}
+
+label input:checked + .menu + ul {
+  opacity: 1;
+  visibility: visible;
+  transition-delay: 0.1s;
+}
+
+
+label a {
+  margin-bottom: 1em;
+  display: block;
+  color: #f38630;
+  font-size: 20px;
+  text-decoration: none;
+  
+}
+
+h1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  width: 80%;
+  text-align: center;
+}
+.account-icon {
+  position: relative;
+  margin-right: 10px;
+  
+}
+
+.account-icon::before {
+  content: "";
+  position: absolute;
+  top: 41%;
+  right: -10px;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-top: 7px solid black;
+  transform: translateY(-50%);
+  transition: all .3s;
+}
+
+.icon-right::before {
+  transform: translateY(-50%) rotate(180deg);
+}
+
+.icon-right::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  right: -12px;
+  width: 7;
+  height: 10px;
+  background-color: #000;
+  transform: translateY(-50%);
+}
+
+.account-icon:hover::before {
+  transform: translateY(-50%) rotate(180deg);
+  
+}
+

@@ -1,0 +1,7 @@
+.advertise {
+  background: linear-gradient(112.5deg, rgba(87, 142, 251, 0.36) 0.41%, rgba(255, 0, 204, 0.36) 14.08%, rgba(74, 157, 255, 0.45) 59.96%, rgba(23, 111, 191, 0.88) 98.62%);
+  display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

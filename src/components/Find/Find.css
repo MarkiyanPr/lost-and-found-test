@@ -1,0 +1,194 @@
+.container-5 {
+  background: linear-gradient(107.56deg, #A1DFF4 0%, rgba(87, 142, 251, 0.65) 21.35%, rgba(255, 0, 204, 0.36) 51.76%, rgba(74, 157, 255, 0.45) 92.19%);
+  
+}
+.container-5 > div{
+  display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: calc(100% - 80px);
+}
+.form-row {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.form-column {
+  flex: 1;
+  margin-right: 10px;
+}
+
+#image {
+  width: 270px;
+  height: 270px;
+}
+.container-5 .change-image-button{
+  background: #000000;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 40px;
+    padding: 5px 15px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    border: none;
+    line-height: 24px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-top: 275px;
+    cursor: pointer;
+}
+#description {
+  width: 100%;
+  height: 100px;
+}
+#itemName, .reward-input, #category, #email, #phone, #location, #date, #reward{
+  width: 250px;
+  max-width: 250px;
+  height: 35px;
+  box-sizing: border-box;
+}
+.container-5 .image-field{
+  border-radius: 25px;
+  margin: 0 auto;
+    background-size: cover;
+    background-color: #fff;
+    background-position: center;
+}
+.container-5 .image-field input{
+  width: 270px;
+    height: 270px;
+    opacity: 0;
+    
+}
+
+.container-5 .input-field{
+  
+    border-radius: 35px;
+    border: none;
+    margin-bottom: 20px;
+    padding: 6px 14px;
+    font-family: 'Inter';
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    color: rgba(0, 0, 0, 0.6);
+}
+.reward-input #reward {
+  width: fit-content;
+}
+.reward-input{
+  background: #FFFFFF;
+      display: flex;
+      justify-content: space-between;
+      margin: 0 auto;
+    border-radius: 35px;
+    border: none;
+    padding: 6px 14px;
+    font-family: 'Inter';
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    color: rgba(0, 0, 0, 0.6);
+}
+.container-5 .submit-btn{
+  background: #000000;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 40px;
+  padding: 10px 15px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  border:none;
+  line-height: 24px;
+  text-align: center;
+  color: #FFFFFF;
+  margin-top: 30px;
+  margin-left: auto;
+  cursor: pointer;
+}
+.container-5 .form-row{
+  width: 90%;
+  margin: 0 auto;
+}
+.container-5 .form-row:nth-child(2){
+  width: 82%;
+}
+.input-field#description{
+  border-radius: 25px;
+  width: 100% !important;
+  max-height: 70px;
+  margin: 0 auto;
+  margin-top: 60px;
+  min-height: 70px;
+}
+
+.reward-input-container {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 22px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* Hide the browser's default checkbox */
+.reward-input-container input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+/* Create a custom checkbox */
+.checkmark {
+      position: absolute;
+    top: 0;
+    right: 0;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    border: 1px solid #000;
+}
+
+/* On mouse-over, add a grey background color */
+.reward-input-container:hover input ~ .checkmark {
+  background-color: #fff;
+}
+
+/* When the checkbox is checked, add a blue background */
+.reward-input-container input:checked ~ .checkmark {
+  background-color: #fff;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the checkmark when checked */
+.reward-input-container input:checked ~ .checkmark:after {
+  display: block;
+}
+
+/* Style the checkmark/indicator */
+.reward-input-container .checkmark:after {
+  left: 6px;
+    top: 3px;
+    width: 5px;
+    height: 10px;
+    border: solid #000;
+    border-width: 0 3px 3px 0;
+    transform: rotate(45deg);
+}

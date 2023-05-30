@@ -1,0 +1,15 @@
+.container-4 {
+  background: linear-gradient(107.56deg, rgba(255, 0, 204, 0.36) 0%, rgba(151, 87, 224, 0.55) 23.96%, rgba(0, 87, 255, 0.49) 58.33%, rgba(255, 0, 204, 0.38) 100%);
+}
+
+.container-4 iframe{
+  border-radius: 40px;
+  border: none;
+}
+.iframe-container{
+  display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}

@@ -1,0 +1,134 @@
+
+.main-display{
+    display: flex;
+    height: calc(100vh - 160px);
+}
+.main-display .left-column{
+    width: 50%;
+    box-sizing: border-box;
+    height: 100%;
+    padding: 40px;
+}
+.main-display .right-column{
+  width: 50%;
+    box-sizing: border-box;
+    height: fit-content;
+    padding: 40px;
+    margin: auto 0;
+}
+.container-1{
+ /* animation: gradient-animation 20s ease infinite alternate; */
+ background: linear-gradient(107.48deg, rgba(1, 214, 252, 0.6) 0.01%, rgba(225, 38, 255, 0.54) 81.77%);
+transition : all 5s;
+}
+.main-display .left-column{
+    display: flex;
+  align-items: center;
+}
+.current-date {
+  background: #000;
+  color: #fff;
+  border: none;
+}
+
+.weekend {
+  background: #f2f2f2;
+  color: #000;
+}
+.react-calendar__tile--now {
+  background: #D9D9D9;
+    color: #000;
+  border: none;
+}
+
+.react-calendar__tile:disabled {
+  background: rgba(0, 0, 0, 0.1);
+}
+
+.react-calendar__navigation{
+  margin-bottom: 0;
+}
+.react-calendar__navigation__label{
+  font-family: 'Inter';
+  font-size: 18px;
+  color: #000;
+  
+}
+.react-calendar__navigation button.react-calendar__navigation__label, .react-calendar__navigation__arrow{
+  background-color: transparent !important;
+}
+.react-calendar__month-view__days__day--weekend {
+  color: #000;
+}
+.react-calendar__month-view__days__day--weekend:disabled{
+  color:rgba(16, 16, 16, 0.3);
+}
+.react-calendar__month-view__days__day {
+  padding: 18px;
+    font-size: 18px;
+    font-family: 'Montserrat';
+    font-weight: 600;
+}
+
+.react-calendar__tile:enabled:hover, .react-calendar__tile:enabled:focus {
+  background:#000;
+  color: #fff;
+}
+.react-calendar__month-view__weekdays__weekday{
+  font-family: 'Inter';
+}
+.react-calendar__month-view__weekdays__weekday abbr{
+  text-decoration: none;
+}
+.react-calendar {
+  font-size: 1.2rem;
+  width: auto;
+  max-width: 600px;
+  border-radius: 10px;
+  background: transparent;
+  border: none;
+}
+.main-display .left-column .column-content {
+    margin: auto 0;
+  }
+.main-display .left-column p{
+font-family: "Montserrat", sans-serif;
+font-style: normal;
+font-weight: 628;
+font-size: 20px;
+line-height: 25px;
+text-align: left;
+color: #000000;
+margin-top: 40px;
+}
+.main-display .right-column img{
+    max-height: 70vh;
+    width: 100%;
+}
+
+@keyframes gradient-animation {
+  0% {
+    background: linear-gradient(107.48deg, hsl(200, 60%, 60%) 0.01%, hsl(300, 60%, 60%) 81.77%);
+  }
+  20% {
+    background: linear-gradient(107.48deg, rgba(1, 207, 252, 0.44) 20.43%, rgba(225, 38, 255, 0.46) 81.77%);
+  }
+  40% {
+    background: linear-gradient(107.48deg, rgba(1, 214, 252, 0.6) 19.57%, rgba(225, 38, 255, 0.43) 73.98%);
+  }
+  60% {
+    background: linear-gradient(107.56deg, rgba(1, 214, 252, 0.6) 0%, rgba(255, 0, 204, 0.37) 51.04%, rgba(151, 87, 224, 0.6) 100%);
+  }
+  80% {
+    background: linear-gradient(107.56deg, rgba(255, 0, 204, 0.37) 0%, rgba(151, 87, 224, 0.57) 52.6%, rgba(0, 87, 255, 0.66) 100%);
+  }
+  100% {
+    background: linear-gradient(107.56deg, rgba(255, 0, 204, 0.36) 0%, rgba(151, 87, 224, 0.55) 23.96%, rgba(0, 87, 255, 0.65) 58.33%, rgba(50, 208, 243, 0.38) 100%);
+  }
+}
+
+
+
+
+
+
