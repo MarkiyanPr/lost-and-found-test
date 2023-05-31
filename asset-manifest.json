@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/lost-and-found-test/static/css/main.81104317.css",
-    "main.js": "/lost-and-found-test/static/js/main.3a79d776.js",
+    "main.css": "/lost-and-found-test/static/css/main.6eb5f9c8.css",
+    "main.js": "/lost-and-found-test/static/js/main.b8e7bd45.js",
     "static/js/787.47e7daf8.chunk.js": "/lost-and-found-test/static/js/787.47e7daf8.chunk.js",
     "static/media/main-icons.svg": "/lost-and-found-test/static/media/main-icons.2f20ef333f56723eae26e670e64c877c.svg",
     "static/media/montserrat-latin-700italic.woff": "/lost-and-found-test/static/media/montserrat-latin-700italic.6779372f04095051c62e.woff",
@@ -45,17 +45,13 @@
     "static/media/facebook-icon.svg": "/lost-and-found-test/static/media/facebook-icon.2b6ffea63b3a4e4f156ee98ffb51dc2a.svg",
     "static/media/search.svg": "/lost-and-found-test/static/media/search.465bd9414f13b5a25b53ba11bb5b1c2b.svg",
     "static/media/apple-icon.svg": "/lost-and-found-test/static/media/apple-icon.bedf63a56aa6480242eefb083b679bf4.svg",
-    "static/media/slick.svg": "/lost-and-found-test/static/media/slick.2630a3e3eab21c607e21.svg",
-    "static/media/slick.eot": "/lost-and-found-test/static/media/slick.a4e97f5a2a64f0ab1323.eot",
-    "static/media/slick.ttf": "/lost-and-found-test/static/media/slick.c94f7671dcc99dce43e2.ttf",
-    "static/media/slick.woff": "/lost-and-found-test/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/lost-and-found-test/index.html",
-    "main.81104317.css.map": "/lost-and-found-test/static/css/main.81104317.css.map",
-    "main.3a79d776.js.map": "/lost-and-found-test/static/js/main.3a79d776.js.map",
+    "main.6eb5f9c8.css.map": "/lost-and-found-test/static/css/main.6eb5f9c8.css.map",
+    "main.b8e7bd45.js.map": "/lost-and-found-test/static/js/main.b8e7bd45.js.map",
     "787.47e7daf8.chunk.js.map": "/lost-and-found-test/static/js/787.47e7daf8.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.81104317.css",
-    "static/js/main.3a79d776.js"
+    "static/css/main.6eb5f9c8.css",
+    "static/js/main.b8e7bd45.js"
   ]
 }
