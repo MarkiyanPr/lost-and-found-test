@@ -74,7 +74,7 @@ function Display2() {
           </div>
         </div>
         <div className="right-column">
-          <h3>Оберіть дату втрати:</h3>
+          <h3>Оберіть вашу дату втрати:</h3>
           <Calendar
             onChange={handleDateChange}
             value={date}
