@@ -1,9 +1,9 @@
 {
   "files": {
-    "main.css": "/lost-and-found-test/static/css/main.81104317.css",
-    "main.js": "/lost-and-found-test/static/js/main.a7e53cdb.js",
+    "main.css": "/lost-and-found-test/static/css/main.5177a7ce.css",
+    "main.js": "/lost-and-found-test/static/js/main.7106b23d.js",
     "static/js/787.47e7daf8.chunk.js": "/lost-and-found-test/static/js/787.47e7daf8.chunk.js",
-    "static/media/main-icons.svg": "/lost-and-found-test/static/media/main-icons.a0a43e34e485a1c2cb7b24513cd321c6.svg",
+    "static/media/main-icons.svg": "/lost-and-found-test/static/media/main-icons.2f20ef333f56723eae26e670e64c877c.svg",
     "static/media/montserrat-latin-700italic.woff": "/lost-and-found-test/static/media/montserrat-latin-700italic.6779372f04095051c62e.woff",
     "static/media/montserrat-latin-800italic.woff": "/lost-and-found-test/static/media/montserrat-latin-800italic.fe82abb0bcede51bf724.woff",
     "static/media/montserrat-latin-600italic.woff": "/lost-and-found-test/static/media/montserrat-latin-600italic.c4fcfeeb057724724097.woff",
@@ -40,22 +40,18 @@
     "static/media/montserrat-latin-200.woff2": "/lost-and-found-test/static/media/montserrat-latin-200.9d266fbbfa6cab7009bd.woff2",
     "static/media/montserrat-latin-100italic.woff2": "/lost-and-found-test/static/media/montserrat-latin-100italic.e279051046ba1286706a.woff2",
     "static/media/montserrat-latin-100.woff2": "/lost-and-found-test/static/media/montserrat-latin-100.8d7d79679b70dbe27172.woff2",
-    "static/media/logo.svg": "/lost-and-found-test/static/media/logo.05b8adbb3cd26301fa62fd5dc7b3e6ef.svg",
-    "static/media/google-icon.svg": "/lost-and-found-test/static/media/google-icon.09c68de13b19164169404de736eeb263.svg",
-    "static/media/facebook-icon.svg": "/lost-and-found-test/static/media/facebook-icon.6f77bb5998bc9c187a342495f0c58220.svg",
-    "static/media/search.svg": "/lost-and-found-test/static/media/search.fe3d62bf94e1e5498237068022297274.svg",
-    "static/media/apple-icon.svg": "/lost-and-found-test/static/media/apple-icon.3410d43ed2a3119dc44aeb1a1a662cef.svg",
-    "static/media/slick.svg": "/lost-and-found-test/static/media/slick.2630a3e3eab21c607e21.svg",
-    "static/media/slick.eot": "/lost-and-found-test/static/media/slick.a4e97f5a2a64f0ab1323.eot",
-    "static/media/slick.ttf": "/lost-and-found-test/static/media/slick.c94f7671dcc99dce43e2.ttf",
-    "static/media/slick.woff": "/lost-and-found-test/static/media/slick.295183786cd8a1389865.woff",
+    "static/media/logo.svg": "/lost-and-found-test/static/media/logo.4aedd5452e2f1df089ae599e4b234ca3.svg",
+    "static/media/google-icon.svg": "/lost-and-found-test/static/media/google-icon.23c3b0bc432c68bc1b6d0ff1ec15bebd.svg",
+    "static/media/facebook-icon.svg": "/lost-and-found-test/static/media/facebook-icon.2b6ffea63b3a4e4f156ee98ffb51dc2a.svg",
+    "static/media/search.svg": "/lost-and-found-test/static/media/search.465bd9414f13b5a25b53ba11bb5b1c2b.svg",
+    "static/media/apple-icon.svg": "/lost-and-found-test/static/media/apple-icon.bedf63a56aa6480242eefb083b679bf4.svg",
     "index.html": "/lost-and-found-test/index.html",
-    "main.81104317.css.map": "/lost-and-found-test/static/css/main.81104317.css.map",
-    "main.a7e53cdb.js.map": "/lost-and-found-test/static/js/main.a7e53cdb.js.map",
+    "main.5177a7ce.css.map": "/lost-and-found-test/static/css/main.5177a7ce.css.map",
+    "main.7106b23d.js.map": "/lost-and-found-test/static/js/main.7106b23d.js.map",
     "787.47e7daf8.chunk.js.map": "/lost-and-found-test/static/js/787.47e7daf8.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.81104317.css",
-    "static/js/main.a7e53cdb.js"
+    "static/css/main.5177a7ce.css",
+    "static/js/main.7106b23d.js"
   ]
 }
