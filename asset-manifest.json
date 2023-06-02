@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/lost-and-found-test/static/css/main.b222b13c.css",
-    "main.js": "/lost-and-found-test/static/js/main.1c7af369.js",
+    "main.js": "/lost-and-found-test/static/js/main.7a788929.js",
     "static/js/787.47e7daf8.chunk.js": "/lost-and-found-test/static/js/787.47e7daf8.chunk.js",
     "static/media/main-icons.svg": "/lost-and-found-test/static/media/main-icons.2f20ef333f56723eae26e670e64c877c.svg",
     "static/media/montserrat-latin-700italic.woff": "/lost-and-found-test/static/media/montserrat-latin-700italic.6779372f04095051c62e.woff",
@@ -49,11 +49,11 @@
     "static/media/check-mark.svg": "/lost-and-found-test/static/media/check-mark.8cef8abc273389e88858125fe6d5ef3e.svg",
     "index.html": "/lost-and-found-test/index.html",
     "main.b222b13c.css.map": "/lost-and-found-test/static/css/main.b222b13c.css.map",
-    "main.1c7af369.js.map": "/lost-and-found-test/static/js/main.1c7af369.js.map",
+    "main.7a788929.js.map": "/lost-and-found-test/static/js/main.7a788929.js.map",
     "787.47e7daf8.chunk.js.map": "/lost-and-found-test/static/js/787.47e7daf8.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b222b13c.css",
-    "static/js/main.1c7af369.js"
+    "static/js/main.7a788929.js"
   ]
 }
